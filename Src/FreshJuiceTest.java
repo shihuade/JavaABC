@@ -1,16 +1,4 @@
 
-class FreshJucie {
-  
-  enum FreshJucieSize {
-    SMALL,
-	MEDIUM,
-	LARGE
-  }
-
-  FreshJucieSize size;
-
-}
-
 public class FreshJuiceTest {
 
 	public static void main (String [] args){
