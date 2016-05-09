@@ -8,8 +8,9 @@ run_Main()
 	SourceDir="./Src"
 	
     ClassDir=$OutDir
+    ClassDir02=$SourceDir
     MainClassFile="FreshJuiceTest"
-    
+        
 	echo "compile with javac"
 	echo "with option -d for class output dir, -sourcepath for input/denpence source files dir"
 	echo "***********************************"
@@ -19,7 +20,7 @@ run_Main()
 	
 	echo "run main java function"
 	echo "***********************************"
-	java  -classpath ${ClassDir}  ${MainClassFile}
+	java  -classpath ${ClassDir}:${ClassDir02}  ${MainClassFile}
 }
 
 
