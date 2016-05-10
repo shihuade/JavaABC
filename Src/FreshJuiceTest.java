@@ -1,3 +1,4 @@
+package freshjuice;
 
 public class FreshJuiceTest {
 

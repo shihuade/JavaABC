@@ -1,3 +1,5 @@
+package freshjuice;
+
 class FreshJucie {
 		  
    enum FreshJucieSize {			   
